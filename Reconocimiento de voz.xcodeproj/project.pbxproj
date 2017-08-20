@@ -12,6 +12,8 @@
 		64D59FE91EB7F80800582A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D59FE71EB7F80800582A24 /* Main.storyboard */; };
 		64D59FEB1EB7F80800582A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D59FEA1EB7F80800582A24 /* Assets.xcassets */; };
 		64D59FEE1EB7F80800582A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D59FEC1EB7F80800582A24 /* LaunchScreen.storyboard */; };
+		64D59FF71EB7F86300582A24 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D59FF61EB7F86300582A24 /* Speech.framework */; };
+		64D59FF91EB7FC4400582A24 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D59FF81EB7FC4400582A24 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		64D59FEA1EB7F80800582A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D59FED1EB7F80800582A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64D59FEF1EB7F80800582A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D59FF61EB7F86300582A24 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		64D59FF81EB7FC4400582A24 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D59FF71EB7F86300582A24 /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				64D59FE21EB7F80800582A24 /* Reconocimiento de voz */,
 				64D59FE11EB7F80800582A24 /* Products */,
+				64D59FF51EB7F86300582A24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		64D59FE21EB7F80800582A24 /* Reconocimiento de voz */ = {
 			isa = PBXGroup;
 			children = (
+				64D59FFA1EB7FD0100582A24 /* Audios */,
 				64D59FE31EB7F80800582A24 /* AppDelegate.swift */,
 				64D59FE51EB7F80800582A24 /* ViewController.swift */,
 				64D59FE71EB7F80800582A24 /* Main.storyboard */,
@@ -62,6 +69,22 @@
 				64D59FEF1EB7F80800582A24 /* Info.plist */,
 			);
 			path = "Reconocimiento de voz";
+			sourceTree = "<group>";
+		};
+		64D59FF51EB7F86300582A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D59FF61EB7F86300582A24 /* Speech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D59FFA1EB7FD0100582A24 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				64D59FF81EB7FC4400582A24 /* audio.mp3 */,
+			);
+			name = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D59FEE1EB7F80800582A24 /* LaunchScreen.storyboard in Resources */,
+				64D59FF91EB7FC4400582A24 /* audio.mp3 in Resources */,
 				64D59FEB1EB7F80800582A24 /* Assets.xcassets in Resources */,
 				64D59FE91EB7F80800582A24 /* Main.storyboard in Resources */,
 			);
